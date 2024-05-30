@@ -13,7 +13,8 @@
 ## 📢 Descrição do Projeto
 ### 🎯 Objetivo
 <p align="left">
-    O objetivo deste projeto é exercitar o conhecimento acerca do atributos de acessibilidade utilizados por leitores de tela assim como exercitar a responsividade com as propriedades do CSS3 `<display: flex>` e `<display: grid>` e o uso de <strong>breakpoints</strong> com <strong>media queries</strong>.
+   - O objetivo deste projeto é exercitar o conhecimento acerca do atributos de acessibilidade utilizados por leitores de tela assim como exercitar a responsividade com as propriedades do CSS3 `<display: flex>` e `<display: grid>` e o uso de <strong>breakpoints</strong> com <strong>media queries</strong>.
+</p>
 <p align="left">
     <i>O projeto tem caráter experimental e visa a prática do conhecimento.</i>
 </p>
