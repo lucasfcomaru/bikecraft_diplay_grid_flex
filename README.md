@@ -9,7 +9,7 @@
     <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
 </p>
 
-# 💻 Home page com Diplay Grid e Flex
+# 📱 Home page com Diplay Grid e Flex
 ## 📢 Descrição do Projeto
 ### 🎯 Objetivo
    O objetivo deste projeto é exercitar o conhecimento acerca do atributos de acessibilidade utilizados por leitores de tela assim como exercitar a responsividade com as propriedades do CSS3 `<display: flex>` e `<display: grid>` e o uso de <strong>breakpoints</strong> com <strong>media queries</strong>.
