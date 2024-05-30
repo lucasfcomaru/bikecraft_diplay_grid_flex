@@ -1,4 +1,4 @@
-<img src="/assets/banner-viacep-api.png"/>
+<img src="/assets/banner-bikecraft.jpg"/>
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/lucasfcomaru/bikecraft_diplay_grid_flex?style=for-the-badge" alt="Repo size" title="Repo size"/>
     <img src="https://img.shields.io/github/languages/count/lucasfcomaru/bikecraft_diplay_grid_flex?style=for-the-badge" alt="Language count" title="Language count"/>
@@ -33,5 +33,5 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 ## ☕ Visualizando o projeto 
 <p>
-    Para visualizar o projeto você pode acessar <a href="https://lucasfcomaru.github.io/bikecraft_diplay_grid_flex/" target="_blank"><strong>clicando aqui</strong></a>.
+    Você pode visualizar o projeto <a href="https://lucasfcomaru.github.io/bikecraft_diplay_grid_flex/" target="_blank"><strong>clicando aqui</strong></a>.
 </p>
