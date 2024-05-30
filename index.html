@@ -8,56 +8,68 @@
 </head>
 <body>
 <div class="container">
-    <div class="logo">
-        <img src="assets/bikcraft.svg" alt="Bikecraft" title="Bikecraft">
-    </div>
-    <div class="menu">
-        <a href="#">Sobre</a>
-        <a href="#">Produtos</a>
-        <a href="#">Loja</a>
-        <a href="#">Contato</a>
-    </div>
-    <div class="conteudo">
-        <div class="introducao">
-            <span class="detalhe"></span>
-            <h1>Bicicletas feitas a mão</h1>
-            <p>
-                A Nimbus Stark é a mehor bikecraft criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.
-            </p>
-            <a href="#" class="botao">Ver mais</a>
+    <header class="header">
+        <div class="logo">
+            <img src="assets/bikcraft.svg" alt="Bikecraft" title="Bikecraft">
         </div>
-
-        <img src="assets/bicicleta.jpg" alt="Bicicleta bikecraft preta" title="Bicicleta bikecraft preta">
-
-        <h2 class="subtitulo">Vantagens bikecraft</h2>
-
-        <div class="vantagens">
-            <div class="vantagens-item">
-                <img src="assets/eletrica.svg" alt="">
-                <h3>Motor elétrico</h3>
+    
+        <nav aria-label="primária">
+            <ul class="menu">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main >
+        <article class="conteudo">
+            <div class="introducao" aria-labelledby="label-introducao">
+                <h1 id="label-introducao">Bicicletas feitas a mão</h1>
                 <p>
-                    Permite você viajar distâncias inimagináveis com a sua bike.
+                    A Nimbus Stark é a mehor bikecraft criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.
                 </p>
+                <a href="#" class="botao">Ver mais</a>
             </div>
-            <div class="vantagens-item">
-                <img src="assets/velocidade.svg" alt="">
-                <h3>40 km/h</h3>
-                <p>
-                    A bicicleta elétrica mais rápida hoje no mercado.
-                </p>
-            </div>
-            <div class="vantagens-item">
-                <img src="assets/rastreador.svg" alt="">
-                <h3>Rastreador</h3>
-                <p>
-                    Rastreador e sistema anti-furto para garantir o seu sossego.
-                </p>
-            </div>
-        </div>
-    </div>
+
+            <!-- aria hidden ignora a imagem para o leitor de tela já que ela é apenas decorativa -->
+            <img src="assets/bicicleta.jpg" alt="Bicicleta bikecraft preta" title="Bicicleta bikecraft preta" aria-hidden="true">
+        </article>
+        <article class="conteudo" aria-labelledby="label-vantagens">
+            <h2 class="subtitulo" id="label-vantagens">Vantagens bikecraft</h2>
+        
+            <ul class="vantagens">
+                <li class="vantagens-item">
+                    <!-- aria hidden ignora a imagem para o leitor de tela já que ela é apenas decorativa -->
+                    <img src="assets/eletrica.svg" alt="" aria-hidden="true">
+                    <h3>Motor elétrico</h3>
+                    <p>
+                        Permite você viajar distâncias inimagináveis com a sua bike.
+                    </p>
+                </li>
+                <li class="vantagens-item">
+                    <!-- aria hidden ignora a imagem para o leitor de tela já que ela é apenas decorativa -->
+                    <img src="assets/velocidade.svg" alt="" aria-hidden="true">
+                    <h3>40 km/h</h3>
+                    <p>
+                        A bicicleta elétrica mais rápida hoje no mercado.
+                    </p>
+                </li>
+                <li class="vantagens-item">
+                    <!-- aria hidden ignora a imagem para o leitor de tela já que ela é apenas decorativa -->
+                    <img src="assets/rastreador.svg" alt="" aria-hidden="true"> 
+                    <h3>Rastreador</h3>
+                    <p>
+                        Rastreador e sistema anti-furto para garantir o seu sossego.
+                    </p>
+                </li>
+            </ul>
+        </article>
+    </main>
 </div>
-    <div class="rodape">
+    <footer class="rodape">
         <p>Bikecraft. Alguns direitos reservados.</p>
-    </div>
+    </footer>
 </body>
 </html>

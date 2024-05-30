@@ -19,8 +19,14 @@ p, h1, h2, h3 {
 }
 
 p{
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.3;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .container {
@@ -30,6 +36,12 @@ p{
     margin: 60px 0;
 }
 
+.header {
+    display: grid;
+    justify-content: center;
+    gap: 60px;    
+}
+
 .logo {
     display: flex;
     justify-content: center;
@@ -37,9 +49,10 @@ p{
 
 .menu{
     display: flex;
-    gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
 
     & a {
         background: #fff;
@@ -47,6 +60,12 @@ p{
         padding: 15px 30px;
         color: #000;
         text-transform: uppercase;
+        display: block;
+        border: 0.15rem solid transparent;
+    }
+
+    & a:hover {
+        border: 0.15rem solid #e21;
     }
 }
 
@@ -57,7 +76,7 @@ p{
 
     .introducao {
         background: #fff;
-        padding: 40px;
+        padding: 2.5rem;
         text-align: right;
         position: relative;
         display: grid;
@@ -65,46 +84,66 @@ p{
         gap: 20px;
         justify-items: end;
 
-        .botao {
-            background: #e21;
-            color: #fff;
-            padding: 15px 30px;
-            border-radius: 4px;
-            text-transform: uppercase;
-        }
-
-        .detalhe {
+        &::before {
+            content: "";
             width: 60px;
             height: 4px;
             background: #e21;
+            display: inline-block;
             position: absolute;
             top: 30px;
             right: -30px;
+        }
+
+        & h1 {
+            font-size: 2rem;
+        }
+
+        .botao {
+            background: #e21;
+            color: #fff;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+
+            &:hover {
+                background: #900;
+            }
         }
     }
 }
 
 .subtitulo {
-    font-size: 64px;
+    font-size: 4rem;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.2);
     text-align: right;
-    padding: 40px;
+    padding: 2.5rem;
     align-self: center;
+    background: url("assets/onda.svg");
 }
 
 .vantagens {
     background: #fff;
-    padding: 40px;
+    padding: 2.5rem;
+
+    :nth-child(odd) {
+        background: #f7f7f7;
+    }
 
     .vantagens-item{
         display: grid;
         grid-template-columns: auto 1fr;
         gap: 10px 20px;
         padding: 20px;
-        
+        border-left: 3px solid transparent;
+
         & p {
             grid-column: 2;
+        }
+
+        &:hover{
+            border-color: #e21;
         }
     }
 }
@@ -114,6 +153,6 @@ p{
     background: #fff;
     display: flex;
     justify-content: center;
-    padding: 40px;
-    box-sizing: border-box;
+    padding: 2.5rem;
+
 }
