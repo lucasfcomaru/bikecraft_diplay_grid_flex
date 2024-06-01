@@ -10,14 +10,19 @@
 </p>
 
 # 📱 Home page com Diplay Grid e Flex
+
 ## 📢 Descrição do Projeto
+
 ### 🎯 Objetivo
-   O objetivo deste projeto é exercitar o conhecimento acerca do atributos de acessibilidade utilizados por leitores de tela assim como exercitar a responsividade com as propriedades do CSS3 `<display: flex>` e `<display: grid>` e o uso de <strong>breakpoints</strong> com <strong>media queries</strong>.
+
+O objetivo deste projeto é exercitar o conhecimento acerca do atributos de acessibilidade utilizados por leitores de tela assim como exercitar a responsividade com as propriedades do CSS3 `<display: flex>` e `<display: grid>`, o uso de <strong>breakpoints</strong> com <strong>media queries</strong> e a utilização de variáveis para mudança de cores quando o tema do dispositivo do usuário for escuro.
+
 <p align="left">
     <i>O projeto tem caráter experimental e visa a prática do conhecimento.</i>
 </p>
 
 ### 🛠️ Ferramentas utilizadas
+
 <ul>
     <li><b>HTML5 e CSS3:</b> Linguagens principais.</li>
     <li><b>Visual Studio Code:</b> Ambiente de Desenvolvimento Integrado (IDE).</li>
@@ -26,12 +31,14 @@
 </ul>
 
 ## 💻 Pré-requisitos
+
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Você tem uma máquina `<Windows / Linux / Mac>` ou um smartphone `<Android / iOS>`.
 - Você tem a versão mais recente de um dos principais navegadores `<Chrome / Firefox / Edge / Opera>` instalada.
 
-## ☕ Visualizando o projeto 
+## ☕ Visualizando o projeto
+
 <p>
     Você pode visualizar o projeto <a href="https://lucasfcomaru.github.io/bikecraft_diplay_grid_flex/" target="_blank"><strong>clicando aqui</strong></a>.
 </p>
