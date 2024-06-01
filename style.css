@@ -1,8 +1,29 @@
+:root {
+    --cor-primaria: #e21;
+    --cor-primaria-escura: #900;
+    --fundo1: #f7f7f7;
+    --fundo2: #ffffff;
+    --texto: #000000;
+    --subtitulo: rgba(0, 0, 0, 0.2);
+    --onda: url("assets/onda-clara.svg")
+}
+
+
+@media (prefers-color-scheme: dark){
+    :root {
+        --fundo1: #111111;
+        --fundo2: #000000;
+        --texto: #ffffff;
+        --subtitulo: rgba(255, 255, 255, 0.2);
+        --onda: url("assets/onda-escura.svg")
+    }    
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background: #f7f7f7;
-    
+    background: var(--fundo1);
+    color: var(--texto);
 }
 
 img {
@@ -57,17 +78,17 @@ ul {
     gap: 20px;
 
     & a {
-        background: #fff;
+        background: var(--fundo2);
         border-radius: 4px;
         padding: 15px 30px;
-        color: #000;
+        color: var(--texto);
         text-transform: uppercase;
         display: block;
         border: 0.15rem solid transparent;
     }
 
     & a:hover {
-        border: 0.15rem solid #e21;
+        border: 0.15rem solid var(--cor-primaria);
     }
 }
 
@@ -82,7 +103,7 @@ ul {
         height: 100%;
     }
     .introducao {
-        background: #fff;
+        background: var(--fundo2);
         padding: 2.5rem;
         text-align: right;
         position: relative;
@@ -95,7 +116,7 @@ ul {
             content: "";
             width: 60px;
             height: 4px;
-            background: #e21;
+            background: var(--cor-primaria);
             display: inline-block;
             position: absolute;
             top: 30px;
@@ -107,14 +128,14 @@ ul {
         }
 
         .botao {
-            background: #e21;
-            color: #fff;
+            background: var(--cor-primaria);
+            color: #ffffff;
             padding: 1rem 2rem;
             border-radius: 4px;
             text-transform: uppercase;
 
             &:hover {
-                background: #900;
+                background: var(--cor-primaria-escura);
             }
         }
     }
@@ -123,15 +144,15 @@ ul {
 .subtitulo {
     font-size: 4rem;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.2);
+    color: var(--subtitulo);
     text-align: right;
     padding: 2.5rem;
     align-self: center;
-    background: url("assets/onda.svg");
+    background: var(--onda);
 }
 
 .vantagens {
-    background: #fff;
+    background: var(--fundo2);
     padding: 2.5rem;
 
     
@@ -144,7 +165,7 @@ ul {
         border-left: 3px solid transparent;
 
         &:nth-child(odd) {
-            background: #f7f7f7;
+            background: var(--fundo1);
         }
 
         & p {
@@ -152,14 +173,14 @@ ul {
         }
 
         &:hover{
-            border-color: #e21;
+            border-color: var(--cor-primaria);
         }
     }
 }
 
 .rodape {
     /* width: 100; */
-    background: #fff;
+    background: var(--fundo2);
     display: flex;
     justify-content: center;
     padding: 2.5rem;
@@ -220,7 +241,7 @@ ul {
             content: "";
             width: 100px;
             height: 4px;
-            background: #e21;
+            background: var(--cor-primaria);
             display: inline-block;
             position: absolute;
             top: 283px;
