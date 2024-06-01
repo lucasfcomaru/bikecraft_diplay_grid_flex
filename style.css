@@ -8,7 +8,6 @@
     --onda: url("assets/onda-clara.svg")
 }
 
-
 @media (prefers-color-scheme: dark){
     :root {
         --fundo1: #111111;
